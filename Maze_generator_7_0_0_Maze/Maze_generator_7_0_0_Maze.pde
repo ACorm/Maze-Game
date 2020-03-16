@@ -104,9 +104,9 @@ void draw () {
           createShape();
           texture(Wall);
           vertex(-200, 200, 0, 0, 0);
-          vertex(200, 200, 0, 910, 0);
-          vertex(200, -200, 0, 910, 607);
-          vertex(-200, -200, 0, 0, 607);          
+          vertex(200, 200, 0, 400, 0);
+          vertex(200, -200, 0, 400, 400);
+          vertex(-200, -200, 0, 0, 400);          
           endShape();
           popMatrix();
         }
